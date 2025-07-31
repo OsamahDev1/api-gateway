@@ -11,7 +11,7 @@ class ApiGateway
 
     public function __construct(array $config = [])
     {
-        $this->config = $config ?: config('api_gateway');
+        $this->config = $config ?: config('api-gateway');
     }
 
     protected function getBaseUrl()
