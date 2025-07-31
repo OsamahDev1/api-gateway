@@ -1,0 +1,25 @@
+{
+  "name": "osamahdev1/api-gateway",
+  "description": "Reusable generic API Gateway client for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Osamahdev1\\ApiGateway\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "osamahdev1\\ApiGateway\\ApiGatewayServiceProvider"
+      ],
+      "aliases": {
+        "ApiGateway": "osamahdev1\\ApiGateway\\Facades\\ApiGateway"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^10.0|^11.0"
+  }
+}
