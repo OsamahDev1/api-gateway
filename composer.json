@@ -11,10 +11,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "osamahdev1\\ApiGateway\\ApiGatewayServiceProvider"
+        "Osamahdev1\\ApiGateway\\ApiGatewayServiceProvider"
       ],
       "aliases": {
-        "ApiGateway": "osamahdev1\\ApiGateway\\Facades\\ApiGateway"
+        "ApiGateway": "Osamahdev1\\ApiGateway\\Facades\\ApiGateway"
       }
     }
   },
